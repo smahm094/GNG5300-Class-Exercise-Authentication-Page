@@ -1,5 +1,5 @@
 # Authentication Page
- *This is a simple authentication page with user sign up and login features. This was developed using django, python, html, css and mysql.*
+ *This is a simple authentication page with user sign-up and login features. This was developed using django, python, html, css and mysql.*
 
  ## To run the server:
 
@@ -43,5 +43,10 @@
         * Go to "localhost:8000/login" to login to see the "Welcome" page
 
         * CHECK THE DATABASE TABLE TO SEE YOUR SUBMITTED INFORMATION ARE SAVED IN THE DATABASE:
+<<<<<<< HEAD
           * mysql> use website;
           * mysql> select * from users;
+=======
+          mysql> use website;
+          mysql> select * from users;
+>>>>>>> e83755570fc74dd5c112dc5439130c523fe147e6
