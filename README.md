@@ -10,16 +10,16 @@
     Enter Password:******* (MySQL Password)
 
     CREATE DATABASE:
-    mysql> create database website;
+    * mysql> create database website;
 
     CREATE TABLE FOR THE DATABASE:
-    mysql> use website;
-    mysql> create table users(
-         > First_Name varchar(50) not null,
-         > Last_Name varchar(50) not null,
-         > Sex varchar(10) not null,
-         > Email varchar(50) not null unique,
-         > Password varchar (50) not null);
+    * mysql> use website;
+    * mysql> create table users(
+         * > First_Name varchar(50) not null,
+         * > Last_Name varchar(50) not null,
+         * > Sex varchar(10) not null,
+         * > Email varchar(50) not null unique,
+         * > Password varchar (50) not null);
 
 
 3. Modules:
@@ -43,5 +43,5 @@
         * Go to "localhost:8000/login" to login to see the "Welcome" page
 
         * CHECK THE DATABASE TABLE TO SEE YOUR SUBMITTED INFORMATION ARE SAVED IN THE DATABASE:
-          mysql> use website;
-          mysql> select * from users;
+          * mysql> use website;
+          * mysql> select * from users;
