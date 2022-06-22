@@ -43,10 +43,8 @@
         * Go to "localhost:8000/login" to login to see the "Welcome" page
 
         * CHECK THE DATABASE TABLE TO SEE YOUR SUBMITTED INFORMATION ARE SAVED IN THE DATABASE:
-<<<<<<< HEAD
           * mysql> use website;
           * mysql> select * from users;
-=======
-          mysql> use website;
-          mysql> select * from users;
->>>>>>> e83755570fc74dd5c112dc5439130c523fe147e6
+          * mysql> use website;
+          * mysql> select * from users;
+
