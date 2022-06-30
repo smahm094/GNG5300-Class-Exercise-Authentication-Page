@@ -1,4 +1,8 @@
 # Authentication Page
+ Problem Statement: 
+-	Build an authentication page with user signup and login features
+-	Save the signup and login information in the database using SQL
+
  *This is a simple authentication page with user sign-up and login features. This was developed using django, python, html, css and mysql.*
 
  ## To run the server:
