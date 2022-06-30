@@ -1,4 +1,4 @@
-# Authentication Page
+# Class Exercise: Authentication Page
  Problem Statement: 
 -	Build an authentication page with user signup and login features
 -	Save the signup and login information in the database using SQL
